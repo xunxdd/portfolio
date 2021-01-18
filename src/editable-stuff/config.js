@@ -45,7 +45,7 @@ const career = {
       Descriptions: [
         "Revamped and delivered products in the insurance and benefits admin domain; built responsive SPAs using Vue Js, TypeScript and Rest APIs; ensured quality code through strong typing and extensive test coverage (about 95%) and code reviews; employed modern web techniques such as code splitting and tree shaking to ensure fast application start and response time; maintained and improved legacy systems using Angular Js and DJango Rest Framework"
       ],
-      TechStack: ["Vue Js,TypeScript,.net core"]
+      TechStack: ["Vue Js, TypeScript, .net core"]
     },
     {
       CompanyName: "Cision Inc.",
@@ -55,7 +55,7 @@ const career = {
       Descriptions: [
         "Helped build CPRE (Cision Public Relations Enterprise) using Angular Js and Asp .net framework"
       ],
-      TechStack: ["ASP .net Framework", "jQuery", "Angular Js 1.x"]
+      TechStack: ["ASP .net Framework, jQuery, Angular Js 1.x"]
     },
     {
       CompanyName: "comScore",
@@ -65,7 +65,7 @@ const career = {
       Descriptions: [
         "UI lead of multiple web applications, including comScore Direct, AdEffx (Advertising Effectiveness Web App) and XMedia (a web tool for audience        measurement across TV and digital medias); technologies used include Asp.net MVC, Ext js MVC framework; led a small team of front-end engineers"
       ],
-      TechStack: ["ASP.net web forms, ASP.net MVC, Sencha Ext Js Framework, JavaScript"]
+      TechStack: ["ASP .net web forms, ASP.net MVC, Sencha Ext Js Framework, JavaScript"]
     },
     {
       CompanyName: "Gibson Consulting LLC",
