@@ -1,24 +1,34 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f754e2b1.chunk.css",
-    "main.js": "/portfolio/static/js/main.0307ae1e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0307ae1e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.77fc35b2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.77fc35b2.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.f3fa43ef.chunk.js": "/portfolio/static/js/2.f3fa43ef.chunk.js",
-    "static/js/2.f3fa43ef.chunk.js.map": "/portfolio/static/js/2.f3fa43ef.chunk.js.map",
+    "static/js/2.1806ba59.chunk.js": "/portfolio/static/js/2.1806ba59.chunk.js",
+    "static/js/2.1806ba59.chunk.js.map": "/portfolio/static/js/2.1806ba59.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.07c07d708d4759e0123cc031a33c2f0d.js": "/portfolio/precache-manifest.07c07d708d4759e0123cc031a33c2f0d.js",
+    "precache-manifest.8f77223e710d7708ccdbebc6b83cb505.js": "/portfolio/precache-manifest.8f77223e710d7708ccdbebc6b83cb505.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.f754e2b1.chunk.css.map": "/portfolio/static/css/main.f754e2b1.chunk.css.map",
-    "static/js/2.f3fa43ef.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f3fa43ef.chunk.js.LICENSE.txt",
+    "static/js/2.1806ba59.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1806ba59.chunk.js.LICENSE.txt",
+    "static/media/JsForMe.png": "/portfolio/static/media/JsForMe.cab2ec57.png",
     "static/media/Resume-Xun.pdf": "/portfolio/static/media/Resume-Xun.25ec734a.pdf",
-    "static/media/me.jpg": "/portfolio/static/media/me.121646b2.jpg"
+    "static/media/deepdream.jpg": "/portfolio/static/media/deepdream.35aae419.jpg",
+    "static/media/flatterme.png": "/portfolio/static/media/flatterme.6e7cc189.png",
+    "static/media/funfacts.png": "/portfolio/static/media/funfacts.21262a64.png",
+    "static/media/headlinestoday.png": "/portfolio/static/media/headlinestoday.2d9a504b.png",
+    "static/media/lunchspinner.png": "/portfolio/static/media/lunchspinner.d6685c66.png",
+    "static/media/me.jpg": "/portfolio/static/media/me.121646b2.jpg",
+    "static/media/powerrecruiter.jpg": "/portfolio/static/media/powerrecruiter.0fc34ecc.jpg",
+    "static/media/readinglog.png": "/portfolio/static/media/readinglog.d414cd68.png",
+    "static/media/shakespeare_quotes.png": "/portfolio/static/media/shakespeare_quotes.b97ee03f.png",
+    "static/media/xray.jpg": "/portfolio/static/media/xray.b3feef79.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.f3fa43ef.chunk.js",
+    "static/js/2.1806ba59.chunk.js",
     "static/css/main.f754e2b1.chunk.css",
-    "static/js/main.0307ae1e.chunk.js"
+    "static/js/main.77fc35b2.chunk.js"
   ]
 }
