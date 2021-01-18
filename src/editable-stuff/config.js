@@ -29,7 +29,7 @@ const about = {
   imageLink: require("../editable-stuff/me.jpg"),
   imageSize: 250,
   messages:  ["Hello.  My name is Xun. Nice to meet you!", 
-           "Over the years, I have grown as technologies evolve (I have learned some, forgotten some then learned some more); I have built products across an array of industries; I have worn hats of all sorts: data analyst, GIS programmer, web developer, full stack software engineer, front-end engineer. I have never stopped learning and enjoying the thrill of building a good product"],
+           "Over the years, I have grown as technologies evolve (I have learned some, forgotten some then learned some more); I have built products across an array of industries; I have worn hats of all sorts: data analyst, GIS programmer, web developer, full stack software engineer, front-end engineer. I have never stopped learning and continue to enjoy the thrill of building a good product."],
   resume: require("../editable-stuff/Resume-Xun.pdf"),
 };
 
@@ -43,7 +43,7 @@ const career = {
       Title: "Senior Software Engineer",
       Time: "April, 2016 - Present",
       Descriptions: [
-        "Revamped and delivered products in the insurance and benefits admin domain; built responsive SPAs using Vue Js, TypeScript and Rest APIs; ensured code quality through strong typing, extensive test overage (about 95%) and code reviews; employed modern web techniques such as code splitting, tree shaking to ensure fast application start and response time; maintained and improved legacy systems using Angular Js and DJango Rest Framework;"
+        "Revamped and delivered products in the insurance and benefits admin domain; built responsive SPAs using Vue Js, TypeScript and Rest APIs; ensured quality code through strong typing and extensive test coverage (about 95%) and code reviews; employed modern web techniques such as code splitting and tree shaking to ensure fast application start and response time; maintained and improved legacy systems using Angular Js and DJango Rest Framework"
       ],
       TechStack: ["Vue Js,TypeScript,.net core"]
     },
@@ -53,7 +53,7 @@ const career = {
       Title: "Senior Software Engineer",
       Time: "2015 - 2016",
       Descriptions: [
-        "Helped built CPRE (Cision Public Relations Enterprise) using Angular Js and Asp .net framework."
+        "Helped build CPRE (Cision Public Relations Enterprise) using Angular Js and Asp .net framework"
       ],
       TechStack: ["ASP .net Framework", "jQuery", "Angular Js 1.x"]
     },
@@ -63,7 +63,7 @@ const career = {
       Title: "Junior / Senior / Staff Software Engieer",
       Time: "2009 - 2015",
       Descriptions: [
-        "UI lead of multiple web applications, including comScore Direct, AdEffx (Advertising Effectiveness Web App) and XMedia (a web tool for audience        measurement across TV and digital medias); technologies used include Asp.net MVC, Ext js MVC framework; led a small team of front-end engineers;"
+        "UI lead of multiple web applications, including comScore Direct, AdEffx (Advertising Effectiveness Web App) and XMedia (a web tool for audience        measurement across TV and digital medias); technologies used include Asp.net MVC, Ext js MVC framework; led a small team of front-end engineers"
       ],
       TechStack: ["ASP.net web forms, ASP.net MVC, Sencha Ext Js Framework, JavaScript"]
     },
@@ -73,7 +73,7 @@ const career = {
       Title: "Senior Web Developer",
       Time: "2008 - 2009",
       Descriptions: [
-        "Developed a survey engine using Asp .net and a set of web solutions, including a RFI and RFQ website for Dover Global Metals using jQuery and vanilla JavaScript."
+        "Developed a survey engine using Asp .net and a set of web solutions, including a RFI and RFQ website for Dover Global Metals using jQuery and vanilla JavaScript"
       ],
       TechStack: ["ASP.net web forms, ASP.net MVC, JavaScript, jQuery"]
     },
@@ -93,7 +93,7 @@ const career = {
       Title: "Web developer / Data Analyst / GIS Programmer",
       Time: "2003 - 2008",
       Descriptions: [
-        "Built and maintained MCIC’s official websites and intranet; Developed systems for the city of Chicago using ASP pages and ESRI technologies."
+        "Built and maintained MCIC’s official websites and intranet; developed systems for the city of Chicago using ASP pages and ESRI technologies."
       ],
       TechStack: ["ASP, JavaScript, ESRI technologies"]
     }
@@ -139,7 +139,7 @@ const onlineWritings = {
      {
       title:"UiPath Custom Activities (Plus a Sentiment Analysis Activity)",
       url:"https://medium.com/@xunding/uipath-custom-activities-plus-a-sentiment-analysis-activity-f44f794d3060",
-      description: "It is 2020. It is the year of pandemic. The highest drama and the saddest comedy in which is a president stricken with coronavirus. Now on the heels of a summer of unrest, flood, fire and alarming death toll, it is fall. The feeling of a doomed world lingers."
+      description: "It is 2020. It is the year of pandemic. The highest drama and the saddest comedy in which is a president infected with coronavirus. Now on the heels of a summer of unrest, flood, fire and alarming death toll, it is fall. The feeling of a doomed world lingers."
      },
      {
       title:"Some musing on UiPath and the orchestrators",
@@ -237,7 +237,7 @@ const portfolio = {
     title: "Lightning Math",
     videoUrl:"https://youtu.be/ymSAEEHvfhQ",
     url: "https://www.amazon.com/ReadingEveryday-Lightening-Math-Training/dp/B01N3QV8V1/ref=sr_1_4?dchild=1&keywords=readingeveryday&qid=1610917928&s=digital-skills&sr=1-4",
-    notes: "Elementary Math Practice with Amazon Echo",
+    notes: "Elementary math practice with Amazon Echo",
     thumbnail:require("../editable-stuff/images/portfolio/lightningMath.png"), 
    },
    {
@@ -275,7 +275,7 @@ const portfolio = {
     category: "Machine Learning",
     title: "Google Deep Dream",
     videoUrl:"https://youtu.be/SygFid1D1ro",
-    notes: "Having a little fun with Googlenet model and Places365-CNN model",
+    notes: "Had a little fun with Googlenet model and Places365-CNN model",
     thumbnail:require("../editable-stuff/images/portfolio/deepdream.jpg"), 
     repo: "https://github.com/xunxdd/ILML---Google-Deep-Dream",
    },
