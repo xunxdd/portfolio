@@ -19,7 +19,7 @@ const PortfolioCard = ({ value, imgHeight }) => {
           <Card.Title as="h5">{title } </Card.Title>
           <img className="card-img-top" height={imgHeight} src={thumbnail} alt={title}></img>
           <hr></hr>
-          <Card.Text>{notes} {`${process.env.PUBLIC_URL}`}</Card.Text>
+          <Card.Text>{notes}</Card.Text>
           <CardButtons video_url={videoUrl} link={url} repo={repo} />
         </Card.Body>
       </Card>
