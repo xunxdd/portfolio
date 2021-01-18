@@ -17,9 +17,9 @@ const PortfolioCard = ({ value, imgHeight }) => {
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
           <Card.Title as="h5">{title } </Card.Title>
-          <img className="card-img-top" height={imgHeight} src={`${process.env.PUBLIC_URL}${thumbnail}`} alt={title}></img>
+          <img className="card-img-top" height={imgHeight} src={thumbnail} alt={title}></img>
           <hr></hr>
-          <Card.Text>{notes} </Card.Text>
+          <Card.Text>{notes} {`${process.env.PUBLIC_URL}`}</Card.Text>
           <CardButtons video_url={videoUrl} link={url} repo={repo} />
         </Card.Body>
       </Card>

@@ -73,7 +73,7 @@ const career = {
       Title: "Senior Web Developer",
       Time: "2008 - 2009",
       Descriptions: [
-        "UI lead of multiple web applications, including comScore Direct, AdEffx (Advertising Effectiveness Web App) and XMedia (a web tool for audience        measurement across TV and digital medias); technologies used include Asp.net MVC, Ext js MVC framework; led a small team of front-end engineers;"
+        "Developed a survey engine using Asp .net and a set of web solutions, including a RFI and RFQ website for Dover Global Metals using jQuery and vanilla JavaScript."
       ],
       TechStack: ["ASP.net web forms, ASP.net MVC, JavaScript, jQuery"]
     },
@@ -192,14 +192,14 @@ const portfolio = {
     title: "Power Recruiter",
     url: "https://play.google.com/store/apps/details?id=com.powerrecruiter.com",
     notes: "Built on request of a friend. Real time recruiting data",
-    thumbnail:"images/portfolio/powerrecruiter.jpg", 
+    thumbnail:require("../editable-stuff/images/portfolio/powerrecruiter.jpg"), 
    },
    {
     category: "Mobile App",
     title: "Js For Me",
     url: "https://play.google.com/store/apps/details?id=com.tadpole.js4me",
     notes: "A pocket reference to the latest JavaScript feeds, videos and blogs",
-    thumbnail:"images/portfolio/JsForMe.png", 
+    thumbnail:require("../editable-stuff/images/portfolio/JsForMe.png"), 
    }, 
    {
     category: "Mobile App",
@@ -207,14 +207,14 @@ const portfolio = {
     url: "https://www.linkedin.com/pulse/how-i-built-my-first-mobile-app-readinglog-xun-ding/",
     videoUrl: "https://www.youtube.com/watch?v=e1tlcyENgrU&t=3s",
     notes: "This is the first mobile app I have ever built.  It had a small number of fans",
-    thumbnail:"images/portfolio/readinglog.png", 
+    thumbnail:require("../editable-stuff/images/portfolio/readinglog.png"), 
    },
    {
     category: "Alexa Skills",
     title: "Shakespeare Quotes",
     url: "https://www.amazon.com/ReadingEveryday-Shakespeare-Quotes/dp/B01DV5OZR4/ref=sr_1_1?dchild=1&keywords=shakespeare+quote+alexa+skill&qid=1610858088&sr=8-1",
     notes: "Ask Alexa for Shakespeare, she will recite for you one of the many famous quotes by Shakespeare.",
-    thumbnail:"images/portfolio/shakespeare_quotes.png", 
+    thumbnail:require("../editable-stuff/images/portfolio/shakespeare_quotes.png"), 
    },
    {
     category: "Alexa Skills",
@@ -222,7 +222,7 @@ const portfolio = {
     url:"https://www.amazon.com/ReadingEveryday-Flatter-Me/dp/B077YJ6LS2/ref=sr_1_6?crid=OGMWMRPAUC57&dchild=1&keywords=flatter+me&qid=1610917349&s=digital-skills&sprefix=flatter%2Calexa-skills%2C179&sr=1-6",
     videoUrl:"https://youtu.be/ZC2irDomJ9k",
     notes: "If you are feeling a little down,  say 'ask/open flatter-me', to your Alexa Echo.",
-    thumbnail:"images/portfolio/flatterme.png", 
+    thumbnail:require("../editable-stuff/images/portfolio/flatterme.png"), 
    },
    {
     category: "Alexa Skills",
@@ -230,7 +230,7 @@ const portfolio = {
     videoUrl:"https://youtu.be/roQY_Cjit8o",
     url: "https://www.amazon.com/ReadingEveryday-Fun-Facts/dp/B01MYCFS3H/ref=sr_1_1?dchild=1&keywords=fun+facts+readingeveryday&qid=1610917723&s=digital-skills&sr=1-1",
     notes: "Fun facts you probably did not know on a variety of topics, such as animals, alphabets, etc",
-    thumbnail:"images/portfolio/funfacts.png", 
+    thumbnail:require("../editable-stuff/images/portfolio/funfacts.png"), 
    },
    {
     category: "Alexa Skills",
@@ -238,14 +238,14 @@ const portfolio = {
     videoUrl:"https://youtu.be/ymSAEEHvfhQ",
     url: "https://www.amazon.com/ReadingEveryday-Lightening-Math-Training/dp/B01N3QV8V1/ref=sr_1_4?dchild=1&keywords=readingeveryday&qid=1610917928&s=digital-skills&sr=1-4",
     notes: "Elementary Math Practice with Amazon Echo",
-    thumbnail:"images/portfolio/lightningmath.png", 
+    thumbnail:require("../editable-stuff/images/portfolio/lightningMath.png"), 
    },
    {
     category: "Alexa Skills",
     title: "Headlines Today",
     url: "https://www.amazon.com/ReadingEveryday-Headlines-Today/dp/B072WKTNHF/ref=sr_1_2?dchild=1&keywords=readingeveryday&qid=1610917928&s=digital-skills&sr=1-2",
     notes: "Latest top headlines from over 50 news sources",
-    thumbnail:"images/portfolio/headlinestoday.png", 
+    thumbnail:require("../editable-stuff/images/portfolio/headlinestoday.png"), 
    },
    {
     category: "Alexa Skills",
@@ -253,14 +253,14 @@ const portfolio = {
     videoUrl:"https://youtu.be/Rq5w0Amwz9Y",
     url: "https://www.amazon.com/ReadingEveryday-Lightening-Math-Training/dp/B01N3QV8V1/ref=sr_1_4?dchild=1&keywords=readingeveryday&qid=1610917928&s=digital-skills&sr=1-4",
     notes: "Elementary Math Practice with Amazon Echo",
-    thumbnail:"images/portfolio/lunchspinner.png", 
+    thumbnail:require("../editable-stuff/images/portfolio/lunchspinner.png"), 
    },
    {
     category: "Machine Learning",
     title: "Posenet Demo",
     videoUrl:"https://www.youtube.com/watch?v=BQj3t4dWjuI",
     notes: "Posenet Demo - In My Feelings",
-    thumbnail:"images/portfolio/posenetdemo.jpg",
+    thumbnail:require("../editable-stuff/images/portfolio/posenetdemo.jpg"),
     repo: "https://github.com/xunxdd/Posenet-Demo--In-My-Feelings-Challenge-AI",
    },
    {
@@ -268,7 +268,7 @@ const portfolio = {
     title: "Pneumonia X-ray Image Classification",
     videoUrl:"https://youtu.be/RfauqDz8W5k",
     notes: "UDacity Capstone project",
-    thumbnail:"images/portfolio/xray.jpg", 
+    thumbnail:require("../editable-stuff/images/portfolio/xray.jpg"), 
     repo: "https://github.com/xunxdd/Machine-learning-capstone",
    },
    {
@@ -276,7 +276,7 @@ const portfolio = {
     title: "Google Deep Dream",
     videoUrl:"https://youtu.be/SygFid1D1ro",
     notes: "Having a little fun with Googlenet model and Places365-CNN model",
-    thumbnail:"images/portfolio/deepdream.jpg", 
+    thumbnail:require("../editable-stuff/images/portfolio/deepdream.jpg"), 
     repo: "https://github.com/xunxdd/ILML---Google-Deep-Dream",
    },
    {
@@ -284,12 +284,11 @@ const portfolio = {
     title: "Ad Creative Viewer",
     videoUrl:"https://www.youtube.com/watch?v=BQj3t4dWjuI",
     notes: "",
-    thumbnail:"images/portfolio/powerrecruiter.jpg", 
+    thumbnail:require("../editable-stuff/images/portfolio/powerrecruiter.jpg"), 
    },
   ]
 
 };
-
 
 // GET IN TOUCH SECTION
 const getInTouch = {

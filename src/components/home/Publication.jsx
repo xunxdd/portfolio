@@ -13,16 +13,13 @@ const Publication = ({ heading, list, quote }) => {
                 <Quote quote={quote} />
              {
                  list.map((pub, index) => (
-                    <p>
+                    <div  key={`publication-${index}`}>
                         <a target=" _blank"  
-                            href={pub.url}  
-                            key={`publication-${index}`}>
-                            {pub.title}
-                        </a>
+                            href={pub.url} > {pub.title}</a>
                         <div className="px-2 py-2 text-muted">
                             {pub.description}
                         </div>
-                    </p>       
+                    </div>       
                  ))
              }
              </div>
