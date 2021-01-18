@@ -5,9 +5,8 @@
 
   <p align="center">
     <a href="https://xunxdd.github.io/portfolio">xunxdd.github.io</a>
-    <br />
-    <br />
-    <a href="https://hashirshoaeb.github.io">hashirshoaeb.github.io</a>
+   modified from
+    <a href="https://hashirshoaeb.github.io">hashirshoaeb.github.io</a> (Thanks. Hashir)
 
   </p>
 </p>
