@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import PortfolioCard from "./PortfolioCard";
 import Quote from "./Quote";
 
-const Portfolio = ({ heading, list, quote }) => {
+const Portfolio = ({ heading, list,note, quote }) => {
     const mobileApps = list.filter((x) => x.category === 'Mobile App')
     const alexaSkills = list.filter(x => x.category === 'Alexa Skills');
     const machineLearning = list.filter(x => x.category === 'Machine Learning');
@@ -13,7 +13,10 @@ const Portfolio = ({ heading, list, quote }) => {
         <Jumbotron fluid id="portfolio" className="bg-light m-0  target-section">
           <Container className="">
           
-            <h2 className="display-4 pb-5 text-center">{heading}</h2>
+            <h2 className="display-4 pb-5 text-center">{heading}
+            <div style={{"font-size": "1rem"}}><span>{note}</span></div>
+            </h2>
+           
             <div className="px-3 mb-1" >
                 <Quote quote={quote} />
              </div>

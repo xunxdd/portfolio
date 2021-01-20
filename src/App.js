@@ -55,6 +55,7 @@ const Home = React.forwardRef((props, ref) => {
       {portfolio.show && (
         <Portfolio
           quote ={portfolio.quote}
+          note ={portfolio.note}
           heading={portfolio.heading}
           list={portfolio.list}
         />

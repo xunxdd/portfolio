@@ -182,7 +182,8 @@ const onlineWritings = {
 
 const portfolio = {
   show: true,
-  heading: "Some of My Work",
+  heading: "Some of My Personal Work",
+  note: "All of the following has been done in my personal capacity. Work for my current or previous employer is not listed for proprietary reasons",
   quote: {
     text: "People think that computer science is the art of geniuses, but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.",
     by:"Donald Knuth"
@@ -197,7 +198,6 @@ const portfolio = {
    {
     category: "Mobile App",
     title: "Js For Me",
-    url: "https://play.google.com/store/apps/details?id=com.tadpole.js4me",
     notes: "A pocket reference to the latest JavaScript feeds, videos and blogs",
     thumbnail:require("../editable-stuff/images/portfolio/JsForMe.png"), 
    }, 
@@ -252,7 +252,7 @@ const portfolio = {
     title: "Lunch Spinner",
     videoUrl:"https://youtu.be/Rq5w0Amwz9Y",
     url: "https://www.amazon.com/ReadingEveryday-Lightening-Math-Training/dp/B01N3QV8V1/ref=sr_1_4?dchild=1&keywords=readingeveryday&qid=1610917928&s=digital-skills&sr=1-4",
-    notes: "Elementary Math Practice with Amazon Echo",
+    notes: "Let Alexa decide for you the lunch of the day",
     thumbnail:require("../editable-stuff/images/portfolio/lunchspinner.png"), 
    },
    {
