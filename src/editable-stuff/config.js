@@ -65,7 +65,7 @@ const career = {
       Descriptions: [
         "UI lead of multiple web applications, including comScore Direct, AdEffx (Advertising Effectiveness Web App) and XMedia (a web tool for audience        measurement across TV and digital medias); technologies used include Asp.net MVC, Ext js MVC framework; led a small team of front-end engineers"
       ],
-      TechStack: ["ASP .net web forms, ASP.net MVC, Sencha Ext Js Framework, JavaScript"]
+      TechStack: ["ASP .net web forms, ASP .net MVC, Sencha Ext Js Framework, JavaScript"]
     },
     {
       CompanyName: "Gibson Consulting LLC",
@@ -75,7 +75,7 @@ const career = {
       Descriptions: [
         "Developed a survey engine using Asp .net and a set of web solutions, including a RFI and RFQ website for Dover Global Metals using jQuery and vanilla JavaScript"
       ],
-      TechStack: ["ASP.net web forms, ASP.net MVC, JavaScript, jQuery"]
+      TechStack: ["ASP .net web forms, JavaScript, jQuery"]
     },
     {
       CompanyName: "DotnetSlackers",
@@ -183,7 +183,7 @@ const onlineWritings = {
 const portfolio = {
   show: true,
   heading: "Some of My Personal Work",
-  note: "All of the following has been done in my personal capacity. Work for my current or previous employer is not listed for proprietary reasons",
+  note: "All of the following has been done in my personal capacity. Work for my current or previous employers is not listed for proprietary reasons",
   quote: {
     text: "People think that computer science is the art of geniuses, but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.",
     by:"Donald Knuth"
@@ -295,8 +295,8 @@ const getInTouch = {
   show: true,
   heading: "Contact Me",
   message:
-    "I'm currently looking for new opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "xunding @ gmail.com",
+    "If you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "xunding  @  gmail.com",
 };
 
 export { 
